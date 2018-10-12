@@ -57,7 +57,7 @@ void ofxPhoto::threadedFunction(){
 
 void ofxPhoto::startCapture(){
     bCamIsBusy = true;
-    startThread(true, false);
+    startThread();
     //printf("Thread started!\n");
 }
 
